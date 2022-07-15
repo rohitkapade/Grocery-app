@@ -1,0 +1,25 @@
+#cart{
+    height: auto;
+    width: 90%;
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-left: 85px;
+    gap: 25px;
+    margin-top: 25px;
+}
+
+.item{
+    height: 350px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 13px;
+    text-align: center;
+
+}
+
+.img{
+    height: 55%;
+    width: 100%;
+    border-radius: 13px;
+}

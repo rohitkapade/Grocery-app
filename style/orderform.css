@@ -1,0 +1,29 @@
+#order-form{
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    /* justify-content: center; */
+    align-items: center;
+    /* border: 1px solid black; */
+    margin-top: 150px;
+    border-radius: 15px;
+    /* background-color: grey; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.jump{
+    margin-top: 25px;
+    height: 30px;
+    width: 150px;
+    margin-left: 70px;
+    border-radius: 5px;
+}

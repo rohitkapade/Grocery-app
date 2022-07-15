@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/orderform.css">
+    <title>Checkout</title>
+  </head>
+
+  <body>
+    <div id="order-form">
+      <form action="" onsubmit="orderPlaced(event)" >
+        <input id="user_name" type="text" placeholder="Name" class="jump" required>
+        <input id="user_number" type="text" placeholder="Mob-num" class="jump" required>
+        <input id="user_address" type="text" placeholder="Address" class="jump" required><br>
+        <input type="submit" id="submit" class="jump"  required>
+      </form>
+      <!--Add your form html element here-->
+      <!--In form, give #user_name,#user_number and #user_address as HTML id's to relevant input elements -->
+    </div>
+  </body>
+</html>
+<script src="scripts/checkout.js"></script>
